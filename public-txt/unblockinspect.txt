@@ -1,1 +1,14 @@
+A very limited way to edit elements of a site you're on if Inspect Element is blocked
 
+Highlight the following text below and drag it to your bookmarks bar:
+
+javascript:document.body.contentEditable = 'true'; document.designMode='on'; void 0
+
+
+Now whenever you want to edit text on pages, click on that button that you just created in your bookmarks bar, and click where you want to change the text. It will allow you to edit and change text as if it were a document. Use backspace to delete text.
+
+Now, we have to add a button to turn inspect off. Highlight this text below and drag it to your bookmarks bar again (this is different):
+
+javascript:document.body.contentEditable = 'false'; document.designMode='off'; void 0
+
+This button makes it so you can turn off inspect. The first button turns inspect on, the second button turns it off. If you're having any problems, you're probably not doing it correctly. But if you are 100% sure you are doing it correctly and you're having problems, copy the text, and [COMPLETE HERE]
